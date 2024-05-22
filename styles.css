@@ -1,0 +1,151 @@
+@font-face {
+    font-family: young-serif;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: young-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 40px;
+   
+}
+img{
+    width: 560px;
+    height: 150px;
+    margin: 20px 0 20px 20px;
+    border-radius: 0.5rem;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    display: block;
+    width: 600px;
+    border-radius: 0.5rem;
+}
+
+.container h1,p{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.prep{
+    background-color: hsl(330, 100%, 98%);
+    height: 150px;
+    width: 560px;
+    margin-left: 20px;
+}
+.prep-h{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.prep-h h3{
+    color: hsl(332, 51%, 32%);
+}
+.prep-ul{
+    margin-left: 35px;
+}
+.prep-ul li{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.ingre{
+    margin-left: 20px;
+}
+.ingre-h{
+    color: hsl(14, 45%, 36%);
+    margin-top: 20px;
+}
+.ingre-ul{
+    margin-left: 25px;
+}
+.ingre-ul li{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.hr{
+    width: 560px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+.instra{
+    margin-left: 20px;
+}
+.instra-h{
+    color: hsl(14, 45%, 36%);
+    margin-top: 20px;
+}
+.instra-ol{
+    margin-left: 25px;
+    margin-right: 15px;
+}
+.instra-ol li{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.nutri{
+    margin-left: 20px;
+}
+.nutri-h{
+    color: hsl(14, 45%, 36%);
+    margin-top: 20px;
+}
+
+
+ul li::marker{
+    color: hsl(14, 45%, 36%);
+}
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.nutri-p p{
+    margin: 0;
+    padding: o;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nutri ul li{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.items-amounts ul li{
+    margin-left: 0;
+    padding-left: 0;
+}
+.nutri ul li:last-child{
+    border-bottom: none;
+}
+.hr-2{
+    width: 560px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+span{
+    color: hsl(14, 45%, 36%);
+}
+
+
+
+
+
+.attribution {
+     font-size: 11px; text-align: center;
+     }
+.attribution a { 
+        color: hsl(228, 45%, 44%);
+    }
