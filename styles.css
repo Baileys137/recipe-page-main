@@ -46,8 +46,9 @@ img{
     margin-left: 20px;
     margin-bottom: 5px;
 }
-.prep-h h3{
+.prep-h p{
     color: hsl(332, 51%, 32%);
+    font-size:18px;
 }
 .prep-ul{
     margin-left: 35px;
