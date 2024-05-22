@@ -119,6 +119,8 @@ ol li::marker{
 .nutri ul li{
     display: flex;
     justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
 
 
 }
